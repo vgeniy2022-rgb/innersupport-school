@@ -1,6 +1,6 @@
 const SITE_CONFIG = {
-  telegramUrl: "https://t.me/Inner_Support_SkhoolRu",
-  telegramChannelUrl: "https://t.me/Inner_Support_SkhoolRu",
+  telegramUrl: "https://t.me/Inner_Support_SchoolRu",
+  telegramChannelUrl: "https://t.me/inner_support_school",
   whatsappPhone: "79149647332",
   phoneDisplay: "+7 (914) 964-73-32",
   phoneHref: "tel:+79149647332",
