@@ -1,10 +1,9 @@
 const SITE_CONFIG = {
-  telegramUrl: "https://t.me/Lada_ball",
-  telegramChannelUrl: "https://t.me/inner_support_school",
+  telegramUrl: "https://t.me/Inner_Support_SkhoolRu",
+  telegramChannelUrl: "https://t.me/Inner_Support_SkhoolRu",
   whatsappPhone: "79149647332",
   phoneDisplay: "+7 (914) 964-73-32",
   phoneHref: "tel:+79149647332",
-  instagramUrl: "https://www.instagram.com/inner_support_school",
   schoolName: "Школа внутренней опоры",
   lecturesGoogleSheetUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSMXn7MOnDuGJ4hDYB9bzsb7cjT1sqtWx57o1hchGg1lDnKJDc06-H_kgnuelBloA1NpTcCUrmNVm3z/pubhtml?gid=1122832629&single=true",
   literatureGoogleSheetUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSMXn7MOnDuGJ4hDYB9bzsb7cjT1sqtWx57o1hchGg1lDnKJDc06-H_kgnuelBloA1NpTcCUrmNVm3z/pub?gid=598249754&single=true&output=csv",
@@ -269,10 +268,6 @@ function applyConfig() {
     link.href = createGeneralBookingUrl();
     setExternalLink(link);
   });
-  document.querySelectorAll("[data-config-link='instagram']").forEach((link) => {
-    link.href = SITE_CONFIG.instagramUrl;
-    setExternalLink(link);
-  });
   document.querySelectorAll("[data-config-link='phone']").forEach((link) => {
     link.href = SITE_CONFIG.phoneHref;
     link.removeAttribute("target");
@@ -397,7 +392,7 @@ function renderEvents() {
     elements.heroEvent.innerHTML = `
       <span>Ближайшая лекция</span>
       <strong>Ближайшая лекция скоро появится</strong>
-      <p>Расписание обновляется. Следите за анонсами в Instagram и Telegram-канале школы.</p>
+      <p>Расписание обновляется. Следите за анонсами в Telegram-канале школы.</p>
     `;
   }
 
